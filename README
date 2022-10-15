@@ -1,0 +1,6 @@
+#On the terminal to be recoreded
+export  PROMPT_COMMAND="history -a"
+export HISTFILE=/home/$USER/.new_bash_history
+
+# start history termial printing recorded history
+./histprint.sh
