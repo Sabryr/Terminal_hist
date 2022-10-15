@@ -23,7 +23,7 @@ connect () {
                                 #printf "($i) $last_printed | "
                                 printf "$last_printed |"
 				
-                                if [ $(($i % 4)) == 0 ]
+                                if [ $(($i % 5)) == 0 ]
 				then
 					echo ""
   				fi
@@ -49,6 +49,7 @@ connect () {
 #  PS1=${ORIG}${TITLE}
 #  }
 #
-connect /home/sabryr/.new_bash_history
+
+connect $1
 
 
