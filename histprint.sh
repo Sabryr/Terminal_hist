@@ -1,4 +1,5 @@
 #!/bin/bash
+#./histprint.sh /cluster/home/$USER/.new_bash_history
 
 connect () {
 	export SHARED_HISTORY_FILE=$1
