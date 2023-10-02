@@ -22,7 +22,7 @@ connect () {
                         	last_printed="$last"
 				#printf '\033]2;'$last_printed'\007'
                                 #printf "($i) $last_printed | "
-                                printf "$last_printed |"
+                                printf "$last_printed \n"
 				
                                 if [ $(($i % 5)) == 0 ]
 				then
